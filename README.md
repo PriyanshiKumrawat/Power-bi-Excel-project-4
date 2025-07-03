@@ -33,4 +33,37 @@ Server A encountered 21 errors over the 3-day span.
 
 Network In/Out patterns indicate intermittent spikes, possibly during peak operations.
 
+# Observations & Insights
+# Server A
+✅ Best in CPU usage (Lowest).
+✅ Fewest errors (Only 21).
+⚠️ Higher response time on Day 30 (313 ms).
+⚖️ Balanced read/write, moderate network usage.
+
+# Server B
+⚠️ Highest error count (25).
+✅ Best response time on Day 29 (273 ms).
+⚠️ Slightly higher CPU usage than A.
+⚖️ Moderate disk activity and network performance.
+
+# Server C
+⚠️ Highest total errors (28).
+✅ Lowest disk write (efficient use).
+✅ Balanced and stable network in/out.
+⚠️ Moderate CPU usage but not best performing.
+
+# Conclusions & Recommendations
+ Best Overall Performing Server: Server A
+ Why? Lowest CPU, lowest error count, stable performance.
+
+️ Server B Needs Attention On:
+ Error handling: High number of consistent errors (10, 10, 5).
+ CPU usage creeping up — investigate resource-heavy processes.
+
+⚠️ Server C Needs Immediate Review:
+    Highest errors (8, 7, 13) — especially Day 30.
+    Slightly worse response time trend.
+    Disk performance seems solid, but high error rate is a concern.
+
+
 # Dashboard Review -
