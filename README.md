@@ -66,4 +66,4 @@ Network In/Out patterns indicate intermittent spikes, possibly during peak opera
     Disk performance seems solid, but high error rate is a concern.
 
 
-# Dashboard Review -
+# Dashboard Review - https://github.com/PriyanshiKumrawat/Power-bi-Excel-project-4/blob/main/Server%20Optimization.png
